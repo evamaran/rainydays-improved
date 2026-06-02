@@ -132,7 +132,7 @@ header .container {
 
 	header .container {
 		display: grid;
-		grid-template-columns: 1fr auto 1fr;
+		grid-template-columns: 1fr auto auto;
 		grid-template-areas: "search logo icons";
 		align-items: center;
 		padding: 8px 0;

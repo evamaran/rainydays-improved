@@ -1,6 +1,7 @@
 /* || FOOTER STRUCTURE */
 
 footer {
+	width: 100%;
 	background: linear-gradient(to right,
 			#0B3A40 0%,
 			#0B3A40 50%,
