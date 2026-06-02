@@ -131,28 +131,26 @@ header .container {
 	}
 
 	header .container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.header-top {
 		display: grid;
-		grid-template-columns: 1fr auto auto;
-		grid-template-areas: "search logo icons";
+		grid-template-columns: 1fr auto 1fr;
 		align-items: center;
 		padding: 8px 0;
 	}
 
-	.header-top {
-		grid-area: search / logo / icons;
-		display: contents;
-	}
-
 	.header-left {
-		grid-area: search;
+		justify-content: flex-start;
 	}
 
 	.header-center {
-		grid-area: logo;
+		justify-content: center;
 	}
 
 	.header-right {
-		grid-area: icons;
 		justify-content: flex-end;
 		padding-right: 1.5rem;
 	}

@@ -9,13 +9,11 @@ footer {
 			#F4AB67 100%);
 	color: #F0F4F5;
 	padding: 40px 0;
-	display: flex;
-	justify-content: center;
 }
 
 .footer {
-	width: 100%;
 	max-width: 1200px;
+	margin: 0 auto;
 	padding: 0 1.5rem;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
@@ -88,6 +86,7 @@ footer {
 @media (min-width: 601px) {
 	.footer {
 		grid-template-columns: 2fr 1fr;
+		justify-content: center;
 	}
 
 	.footer-links {
