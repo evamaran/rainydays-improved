@@ -153,6 +153,8 @@ header .container {
 
 	.header-right {
 		grid-area: icons;
+		justify-content: flex-end;
+		padding-right: 1.5rem;
 	}
 
 	.header-nav {
@@ -184,6 +186,10 @@ header .container {
 	.hamburger-icon,
 	.close-icon {
 		display: none;
+	}
+
+	.icon-group {
+		gap: 16px;
 	}
 
 	.icon-group a {
