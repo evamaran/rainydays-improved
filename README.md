@@ -1,36 +1,42 @@
-# RainyDays website for HTML and CSS course
+# RainyDays – Semester Project 1
 
-This assignment was to create a responsive website using the RainyDays model created in Figma during the Design Course. I created this with a focus on the provided marking guide, paying special attention to responsiveness across screen sizes, semantic HTML, DRY CSS, a well-working navigation and accessible navigation and overall usability.
+This project is part of **Semester Project 1** in the Frontend Development program.
+The goal was to create a responsive website based on the RainyDays brand concept developed earlier in the Design course. I built the site with a strong focus on the marking criteria: responsiveness across screen sizes, semantic HTML, DRY and maintainable CSS, accessible navigation, and overall usability.
 
 ## Live version
 
-The website is published via GitHub:
-[https://evamaran.github.io/html-css-evaandersen/](https://evamaran.github.io/html-css-evaandersen/)
+The website is published via GitHub Pages:
+[https://evamaran.github.io/REPO-NAME/](https://evamaran.github.io/REPO-NAME/)
+*(update this after pushing the new repo)*
 
 ## Folder structure
 
-- index.html - Homepage
-- css/main.css - Main stylesheet that imports my other CSS files
-- images/ - Contains all images used in this project
-- README.md - This file
+- index.html -- Homepage
+- women/ -- Women’s category and product pages
+- men/ -- Men’s category and product pages
+- css/main.css -- Main stylesheet
+- images/ -- All images used in the project
+- README.md -- This file
 
 ## Validation and testing
 
-- HTML and CSS validated using W3C validator
-- Tested in Chrome, Firefox, and mobile (iPhone)
-- Accessibility checks: color contrast and keyboard navigation
+- HTML validated using W3C Validator
+- CSS validated using W3C CSS Validator
+- Tested in Chrome, Firefox, and on mobile (iPhone)
+- Accessibility checks: color contrast, keyboard navigation, alt text and semantic structure
 - Verified clean experience in incognito mode
 
 ## What I learned
 
-- Structure HTML to make it easy to read and follow
-- Create and work with stylesheets and mediaqueries
-- The importance of testing in final environment
-- Troubleshooting makes me want to pull out all my hair, but in the end it is very rewarding!
+- Structuring HTML to make it readable and maintainable
+- Working with stylesheets and media queries
+- Building responsive layouts that adapt smoothly
+- The importance of testing in the final deployment environment
+- Troubleshooting that sometimes makes me want to pull out my hair — but is incredibly rewarding when things finally work
 
 ## Future improvements
 
-I hope future assignments will allow me to:
-- Add a cart functionality that will display the actual product added to it
-- Make cooler animations and effects
-- Have buttons that create actions.
+- Add JavaScript functionality (cart, dynamic product pages, form validation)
+- Add more animations and visual effects
+- Implement reusable components (header/footer includes) when JS is allowed
+- Expand interactivity and user feedback across the site
