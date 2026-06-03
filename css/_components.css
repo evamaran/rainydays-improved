@@ -207,38 +207,38 @@
 /* === SALES BANNER (NY STRUKTUR) === */
 
 .sales-banner {
+	width: 100%;
+	background: linear-gradient(to right, #F4AB67, #F0F4F5);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(to right, #F4AB67, #F0F4F5);
-	width: 100%;
-	padding: 24px 12px;
-	text-align: center;
+	min-height: 260px;
+	padding: 24px 0;
 	color: #0B3A40;
+	text-align: left;
 }
 
 .sales-banner-inner {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1.2fr 1fr;
 	align-items: center;
 	width: 100%;
 	max-width: 1200px;
-	padding: 0 12px;
+	padding: 0 40px;
 	box-sizing: border-box;
 }
 
 .banner-img {
 	width: 100%;
-	max-width: 240px;
+	max-width: none;
 	height: auto;
 	object-fit: cover;
-	margin-bottom: 16px;
+	border-radius: 8px;
 }
 
 .banner-content {
-	max-width: 600px;
-	width: 100%;
-	text-align: center;
+	padding-left: 2rem;
+	text-align: left;
 }
 
 .sales-banner h2 {
@@ -449,25 +449,35 @@
 	}
 
 	.sales-banner {
-		padding: 40px 0;
+		width: 100%;
+		background: linear-gradient(to right, #F4AB67, #F0F4F5);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 280px;
+		padding: 24px 0;
+		color: #0B3A40;
 		text-align: left;
 	}
 
 	.sales-banner-inner {
 		display: grid;
-		grid-template-columns: repeat(12, 1fr);
+		grid-template-columns: 60% 40%;
 		align-items: center;
+		width: 100%;
+		max-width: 1200px;
+		padding: 0 40px;
+		box-sizing: border-box;
 	}
 
 	.banner-img {
-		grid-column: 3 / 7;
-		max-width: 100%;
-		margin-bottom: 0;
-		justify-self: start;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		border-radius: 8px;
 	}
 
 	.banner-content {
-		grid-column: 7 / 12;
 		padding-left: 2rem;
 		text-align: left;
 	}
