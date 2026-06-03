@@ -204,27 +204,27 @@
 }
 
 
-/* === SALES BANNER === */
+/* === SALES BANNER (NY STRUKTUR) === */
 
 .sales-banner {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	background: linear-gradient(to right, #F4AB67, #F0F4F5);
-	min-height: 180px;
+	width: 100%;
 	padding: 24px 12px;
-	color: #0B3A40;
 	text-align: center;
-	overflow: hidden;
+	color: #0B3A40;
 }
 
-.banner-content {
-	max-width: 600px;
+.sales-banner-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 100%;
-	padding: 0 16px;
+	max-width: 1200px;
+	padding: 0 12px;
 	box-sizing: border-box;
-	text-align: center;
 }
 
 .banner-img {
@@ -233,6 +233,12 @@
 	height: auto;
 	object-fit: cover;
 	margin-bottom: 16px;
+}
+
+.banner-content {
+	max-width: 600px;
+	width: 100%;
+	text-align: center;
 }
 
 .sales-banner h2 {
@@ -422,6 +428,7 @@
 /* === MEDIA QUERIES === */
 
 @media (min-width: 601px) {
+
 	.search-button {
 		display: grid;
 		place-items: center;
@@ -442,57 +449,37 @@
 	}
 
 	.sales-banner {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
-		align-items: center;
-		min-height: 260px;
-		padding: 24px 12px;
+		padding: 40px 0;
 		text-align: left;
 	}
 
+	.sales-banner-inner {
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		align-items: center;
+	}
+
 	.banner-img {
-		grid-column: 4 / 9;
-		width: 100%;
-		max-width: 900px;
-		height: auto;
-		object-fit: cover;
-		justify-self: end;
+		grid-column: 3 / 7;
+		max-width: 100%;
 		margin-bottom: 0;
+		justify-self: start;
 	}
 
 	.banner-content {
-		grid-column: 9 / 12;
-		padding-left: 1rem;
+		grid-column: 7 / 12;
+		padding-left: 2rem;
 		text-align: left;
 	}
 
 	.sales-banner h2 {
-		font-size: 1.6rem;
-		margin-bottom: 8px;
-		font-weight: 600;
-	}
-
-	.sales-banner p {
-		font-size: 0.9rem;
-		margin-bottom: 16px;
+		font-size: 1.8rem;
 	}
 
 	.btn-shop {
-		background-color: #F4AB67;
-		color: #0B3A40;
-		padding: 10px 20px;
-		border-radius: 4px;
-		font-family: 'Josefin Sans', sans-serif;
-		font-weight: 700;
 		font-size: 1rem;
-		text-decoration: none;
-		transition: background-color 0.3s ease;
+		padding: 10px 20px;
 	}
-
-	.btn-shop:hover {
-		background-color: #e89a55;
-	}
-
 
 	.product-detail-card {
 		flex-direction: row;
