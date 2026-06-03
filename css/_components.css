@@ -445,39 +445,54 @@
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
 		align-items: center;
-		grid-column: 1 / -1;
-		min-height: 240px;
+		min-height: 260px;
 		padding: 24px 12px;
 		text-align: left;
 	}
 
 	.banner-img {
-		grid-column: 3 / 9;
+		grid-column: 4 / 10;
 		width: 100%;
+		max-width: none;
 		height: auto;
 		object-fit: cover;
+		justify-self: center;
 		margin-bottom: 0;
-		justify-self: end;
 	}
 
 	.banner-content {
-		grid-column: 9 / 12;
-		text-align: left;
+		grid-column: 10 / 13;
 		padding-left: 2rem;
+		text-align: left;
 	}
 
 	.sales-banner h2 {
-		font-size: 1.4rem;
+		font-size: 1.6rem;
+		margin-bottom: 8px;
+		font-weight: 600;
 	}
 
 	.sales-banner p {
 		font-size: 0.9rem;
+		margin-bottom: 16px;
 	}
 
 	.btn-shop {
-		padding: 8px 16px;
-		font-size: 0.9rem;
+		background-color: #F4AB67;
+		color: #0B3A40;
+		padding: 10px 20px;
+		border-radius: 4px;
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 700;
+		font-size: 1rem;
+		text-decoration: none;
+		transition: background-color 0.3s ease;
 	}
+
+	.btn-shop:hover {
+		background-color: #e89a55;
+	}
+
 
 	.product-detail-card {
 		flex-direction: row;
