@@ -70,7 +70,7 @@
 		grid-template-columns: repeat(12, 1fr);
 		height: clamp(300px, 50vh, 500px);
 		overflow: hidden;
-		background-image: url("images/hero169.jpg");
+		background-image: url("../images/hero169.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center 30%;
