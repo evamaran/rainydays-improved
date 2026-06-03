@@ -451,18 +451,18 @@
 	}
 
 	.banner-img {
-		grid-column: 4 / 10;
+		grid-column: 4 / 9;
 		width: 100%;
-		max-width: none;
+		max-width: 900px;
 		height: auto;
 		object-fit: cover;
-		justify-self: center;
+		justify-self: end;
 		margin-bottom: 0;
 	}
 
 	.banner-content {
-		grid-column: 10 / 13;
-		padding-left: 2rem;
+		grid-column: 9 / 12;
+		padding-left: 1rem;
 		text-align: left;
 	}
 
