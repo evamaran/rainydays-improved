@@ -77,13 +77,19 @@
 		grid-template-columns: repeat(12, 1fr);
 		height: clamp(300px, 50vh, 500px);
 		overflow: hidden;
-		width: 100vw;
 		margin-left: calc(50% - 50vw);
 		margin-right: calc(50% - 50vw);
 		background-image: url("/rainydays-improved/images/hero169.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center 30%;
+	}
+
+	.homepage-wrapper>.hero,
+	.homepage-wrapper>.sales-banner {
+		width: 100vw;
+		margin-left: calc(50% - 50vw);
+		margin-right: calc(50% - 50vw);
 	}
 
 	.hero-img {
