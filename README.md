@@ -1,13 +1,22 @@
-# RainyDays – Semester Project 1
+# RainyDays – HTML and CSS project
 
-This project is part of **Semester Project 1** in the Frontend Development program.
-The goal was to create a responsive website based on the RainyDays brand concept developed earlier in the Design course. I built the site with a strong focus on the marking criteria: responsiveness across screen sizes, semantic HTML, DRY and maintainable CSS, accessible navigation, and overall usability.
+RainyDays is a responsive e-commerce layout originally created as part of my frontend studies in 2025.
+For Portfolio 1, I revisited the project to improve layout consistency, readability and overall user experience.
 
 ## Live version
 
 The website is published via GitHub Pages:
-[https://evamaran.github.io/REPO-NAME/](https://evamaran.github.io/REPO-NAME/)
-*(update this after pushing the new repo)*
+https://evamaran.github.io/rainydays-improved/
+
+## Improvements made for Portfolio 1
+
+As part of the Portfolio 1 requirements, I made one meaningful improvement to enhance the layout quality and visual consistency:
+
+### Added consistent grid container to header, hero, sales banner and footer
+
+This improvement prevents text, buttons and icons from touching the screen edges, improves readability and creates a more balanced and professional layout across the site.
+
+Commit: https://github.com/evamaran/rainydays-improved/commit/29bc4594787f0edc788dd66d5c26c2c10465951f
 
 ## Folder structure
 
