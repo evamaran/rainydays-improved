@@ -10,7 +10,6 @@ header .header-container {
 	flex-direction: column;
 }
 
-
 /* || HEADER STRUCTURE – MOBILE */
 
 .header-top {
@@ -18,7 +17,7 @@ header .header-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 8px 0;
+	padding: 8px 1rem;
 	min-height: 64px;
 }
 
@@ -88,6 +87,7 @@ header .header-container {
 	color: #0B3A40;
 	cursor: pointer;
 	z-index: 20;
+	margin-left: 0.25rem;
 }
 
 .menu-checkbox:checked~.header-nav {
@@ -117,6 +117,7 @@ header .header-container {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
+	margin-right: 0.25rem;
 }
 
 
